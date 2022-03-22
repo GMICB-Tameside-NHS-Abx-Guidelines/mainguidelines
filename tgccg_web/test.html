@@ -58,7 +58,7 @@ Prophylaxis
                 general website feedback please use the feedback button at the bottom of the page.</p> 
         </div>         
     </header>     
-    <marquee behavior="scroll" direction="left" id="marquee">v1.4 last updated Chlamydia section - advice to be given 29/11/21 Addition of management of mastitis in primary care 10/12/21</marquee>     
+    <marquee behavior="scroll" direction="left" id="marquee">v1.1.5 last updated Skin & Soft Tissue section - Hidradenitis Suppurativa</marquee>     
     <!--Scrolling bar showing info of version number and last updates etc-->     
     <!--Primary and Urgent care Guidelines section-->     
     <!--This is a whole section as shown by the section tag, you could copy and past this copying everything from <section> to the next </section> tag. Any green &apos;id&apos; tags have to be unique and for example to primarGuidelines tells the browser to move to this section when you click primary care on the navigation menu. So if you were to add a new section you would need to copy and paste this section, change the id to something different such as &apos;emergencyGuidelines&apos; and then add a new navigation link pointing to this section.-->     
@@ -2259,6 +2259,8 @@ with lidocaine 10 mg/g </b><span>(Otigo)</p>
                                 <h4><a href="#PCshingles">shingles</a></h4> 
                                 <h4><a href="#PCstrepA">Strep Group A</a></h4> 
                                 <h4><a href="#PCMastitis">Mastitis</a></h4> 
+                                <h4><a href="#PCHidSupSection">Hidradenitis Suppurativa</a></h4>
+                                
                                 <br/> 
                                 <!--Insect Bites-->                                 
                                 <div class="text-left border border-info rounded" id="PCinsectBitesSection"> 
@@ -3101,22 +3103,20 @@ treatment.</p>
                                     <p>See <a data-dismiss="modal" data-target="#PCURT" data-toggle="modal" href="#PCURT"> 
                                         Tonsillitis </a>section on the Upper Respiratory Infection page</p> 
                                 </div>                                 
-                                <!--floating icon-->                                 
-                                <a class="float" href="#PCSkinTissue"><i class="fa fa-arrow-up my-float">&nbsp;</i> </a> 
-                                <button class="btn btn-primary" data-dismiss="modal">Close Window</button>                                 
-                            </div>
-                            <div class="text-left border border-info rounded " id="PCMastitisSection"> 
-                                <h2 class="text-center" id="PCmastitis">Hidradenitis suppurativa</h2> 
+                                <br>
+                                <!-- Hidradenitis Suppurativa -->
+                            <div class="text-left border border-info rounded " id="PCHidSupSection"> 
+                                <h2 class="text-center" id="PCHidSup">Hidradenitis suppurativa</h2> 
                                 <p>Hidradenitis suppurativa is a chronic inflammatory suppurative disease of the apocrine sweat glands causing painful, inflamed nodules and sterile abscesses. Consider this if only the groin and the axillae are involved.</p> 
                                 <p>It can cause painful, chronic, scarring skin condition that leads to the formation of lumps (nodules), abscesses, and draining channels in the skin. It often affects certain areas of the body including the armpits, breasts, groins and genitals, and bottom. The exact cause is unknown, but the disorder involves inflammation around the hair follicles in these areas. There is an association with smoking, being overweight, and other medical problems including arthritis, inflammatory bowel disease, and diabetes mellitus. Hidradenitis suppurativa has a significant impact on patients&rsquo; quality of life.</p>
                                 <p><b>TREATMENT SHOULD ONLY BE COMMENCED BY A DERMATOLOGIST IN SECONDARY CARE</b></p> 
                                 <!--Start accordian-->                                 
-                                <div id="PCaccordionMastitis"> 
+                                <div id="PCaccordionHidSup"> 
                                     <div class="card"> 
-                                        <div class="card-header" id="PCMastitis"> 
-                                            <h5 class="mb-0"><button aria-controls="PCcollapseMastitis" aria-expanded="false" class="btn btn-link collapsed" data-target="#PCcollapseMastitis" data-toggle="collapse" type="button">Treatment</button></h5> 
+                                        <div class="card-header" id="PCHidSup"> 
+                                            <h5 class="mb-0"><button aria-controls="PCcollapseHidSup" aria-expanded="false" class="btn btn-link collapsed" data-target="#PCcollapseHidSup" data-toggle="collapse" type="button">Treatment</button></h5> 
                                         </div>                                         
-                                        <div aria-labelledby="PCMastitis" class="collapse" data-parent="#PCaccordionMastitis" id="PCcollapseMastitis"> 
+                                        <div aria-labelledby="PCHidSup" class="collapse" data-parent="#PCaccordionHidSup" id="PCcollapseHidSup"> 
                                             <div class="card-body text-left"> 
                                                 <span style="color:#0000AA"><strong>Clindamycin 300mg BD</strong></span> 
                                                 <div> 
@@ -3133,7 +3133,11 @@ treatment.</p>
                                         </div>                                         
                                     </div>                                     
                                 </div>                                 
-                            </div>                             
+                            </div>  
+                            <!--floating icon-->                                 
+                            <a class="float" href="#PCSkinTissue"><i class="fa fa-arrow-up my-float">&nbsp;</i> </a> 
+                            <button class="btn btn-primary" data-dismiss="modal">Close Window</button>                                 
+                        </div>                           
                         </div>                         
                     </div>                     
                 </div>                 
@@ -7521,7 +7525,28 @@ treatment.</p>
                                                     <p>If signs or symptoms of infection are present, treat as
                                                     cellulitis.&nbsp; See cellulitis tab above.</p> 
                                                 </div>                                                 
+                                            </div>     
+                                            <div class="card-header" id="HCHidradenitis Suppurativa"> 
+                                                <h5 class="mb-0"><button aria-controls="collapseHCHidradenitisSuppurativa" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseHCHidradenitisSuppurativa" data-toggle="collapse" type="button">Hidradenitis Suppurativa</button></h5> 
                                             </div>                                             
+                                            <div aria-labelledby="HCHidradenitisSuppurativa" class="collapse" data-parent="#accordionHCLRTI" id="collapseHCHidradenitisSuppurativa"> 
+                                                <div class="card-body text-left"> 
+                                                    <p>Hidradenitis suppurativa is a chronic inflammatory suppurative disease of the apocrine sweat glands causing painful, inflamed nodules and sterile abscesses. Consider this if only the groin and the axillae are involved.</p> 
+                                                    <p>It can cause painful, chronic, scarring skin condition that leads to the formation of lumps (nodules), abscesses, and draining channels in the skin. It often affects certain areas of the body including the armpits, breasts, groins and genitals, and bottom. The exact cause is unknown, but the disorder involves inflammation around the hair follicles in these areas. There is an association with smoking, being overweight, and other medical problems including arthritis, inflammatory bowel disease, and diabetes mellitus. Hidradenitis suppurativa has a significant impact on patients&rsquo; quality of life.</p>
+                                                    <p><b>TREATMENT SHOULD ONLY BE COMMENCED BY A DERMATOLOGIST IN SECONDARY CARE</b></p> 
+                                                    <span style="color:#0000AA"><strong>Clindamycin 300mg BD</strong></span> 
+                                                <div> 
+                                                    <div> 
+                                                        <p><span style="color:#0000AA"></span></p> 
+                                                        <span>Plus</span> 
+                                                        <p><span style="color:#800080"><strong>Rifampicin 300mg BD</strong></span></p> 
+                                                        <p></p> 
+                                                        <p><span style="color:#0000AA"><strong></strong></span></p> 
+                                                        <p><span style="color:#0000AA"><span>for about 10 &ndash; 12 weeks</span></span></p> 
+                                                    </div>                                                     
+                                                </div>
+                                                </div>                                                 
+                                            </div>                                        
                                         </div>                                         
                                     </div>                                     
                                 </div>                                 
